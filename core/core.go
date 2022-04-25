@@ -21,7 +21,7 @@ var (
 	version  = "1.5.5"
 	build    = "Custom"
 	codename = "Xray, Penetrates Everything."
-	intro    = "A unified platform for anti-censorship."
+	intro    = "A unified platform for anti-censorship test."
 )
 
 // Version returns Xray's version as a string, in the form of "x.y.z" where x, y and z are numbers.
