@@ -305,7 +305,7 @@ func (s *Server) handleUDPPayload(ctx context.Context, clientReader *PacketReade
 			mb, err := clientReader.ReadMultiBuffer()
 			if err != nil {
 				if errors.Cause(err) != io.EOF {
-					return newError("unexpected EOF").Base(err)
+					return newError("unexpected EOF2").Base(err)
 				}
 				return nil
 			}
