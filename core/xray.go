@@ -349,7 +349,7 @@ func (s *Instance) Start() error {
 		}
 	}
 
-	newError("Xray ", Version(), " started").AtWarning().WriteToLog()
+	newError("Xray ", Version(), " started test.").AtWarning().WriteToLog()
 
 	return nil
 }
