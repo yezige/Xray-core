@@ -303,7 +303,7 @@ func (h *Handler) Process(ctx context.Context, network net.Network, connection s
 
 		bodyReader := svrSession.DecodeRequestBody(request, reader)
 		if err := buf.Copy(bodyReader, link.Writer, buf.UpdateActivity(timer)); err != nil {
-			return newError("failed to transfer request").Base(err)
+			return newError("failed to transfer request test").Base(err)
 		}
 		return nil
 	}
